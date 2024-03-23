@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40%;
+}
+
+header {
+    background-color: #192a56;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: #192a56;
+    color: white;
+}
+
+form {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-campo{
+    padding: 3px;
+    max-width: 1024px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+input {
+    padding: 2px;
+    font-size: 20px;
+}
+
+button {
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#botao {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
